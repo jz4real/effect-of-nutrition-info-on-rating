@@ -16,7 +16,7 @@
 ### In this instance, the original data is thought to be somewhat disorganized; the "tags," "ingredients," "nutrition," and "steps" data columns need to be cleaned. These columns need to be adjusted for future use because they either contain missing values or have value types that are different from their actual values.
 - Below is an updated version of the cleaned dataframe that excludes the 'review' column, which has a significant amount of text space, and includes features of the to-certain available value for future purposes. 
 |   calories |   total_fat |   sugar |   sodium |   protein |   rating |   n_ingredients |
-|-----------:|------------:|--------:|---------:|----------:|---------:|----------------:|
+|------------|-------------|---------|----------|-----------|----------|-----------------|
 |      123.3 |           2 |       4 |       12 |         7 |        5 |               7 |
 |      161.9 |           3 |      80 |        9 |         5 |        5 |               3 |
 |      377.3 |          11 |     200 |       25 |         7 |      nan |               9 |
