@@ -13,8 +13,9 @@
 
 ## Data Cleaning and Exploratory Data Analysis
 
-### In this instance, the original data is thought to be somewhat disorganized; the "tags," "ingredients," "nutrition," and "steps" data columns need to be cleaned. These columns need to be adjusted for future use because they either contain missing values or have value types that are different from their actual values.
-- Below is an updated version of the cleaned dataframe that excludes the 'review' column, which has a significant amount of text space, and includes features of the to-certain available value for future purposes. 
+### In this instance, the original data is thought to be somewhat disorganized; the "tags," "ingredients," "nutrition," and "steps" data columns need to be cleaned. These columns need to be adjusted for future use because they either contain missing values or have value types that are different from their actual values. PS: since I am also calculating the tf-idf of all meaningful words inside the the review column to find the most meaningful words and their score, I am sampling the original dataframe with 500 samples in order to avoid a large runtime.
+- Below is an updated version of the cleaned dataframe that excludes the 'review' column, which has a significant amount of text space, and includes features of the to-certain available value for future purposes.
+ 
 |   calories |   total_fat |   sugar |   sodium |   protein |   rating |   n_ingredients |
 |------------|-------------|---------|----------|-----------|----------|-----------------|
 |      123.3 |           2 |       4 |       12 |         7 |        5 |               7 |
